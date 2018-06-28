@@ -1,0 +1,21 @@
+body{
+    background: url("../images/superhero.jpg");
+}
+
+#container{
+    text-align:center;
+    background: lightgrey;
+    border: 2px solid;
+    margin: 0px 300px 0px 300px;
+    opacity: 1;
+}
+
+#start{
+    background-color: lightgrey;
+    border-color:lightgrey;
+}
+
+
+h1{
+    text-align:center;
+}

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crystal Game</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/crystalstyle.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+    <div class="infinity-stones-instructions">
+        <div class="container">
+          <h1 class="display-4">Get the Infinity Stones</h1>
+          <p class="lead">You will be given a random number at the start of the game.
+            <br> There are four infinity stones below. By clicking on a infinity stone, you will add a specific amount of points
+            to your total score.
+            <br> You win the game by matching your total score to random number. You lose the game if your score
+            is above the random number.
+            <br> Each time the game starts, the value of each infinity stone changes.
+            <br> Hurry before Thanos collects all the crystals and wipes out half the universe!</p>
+        </div>
+    </div>    
+      
+    <br>
+    <br>
+
+    <div id="yourNumber" class="container">
+        <section class="number-section">
+            <div class="row">
+                <div class="col-sm-6"></div>
+            </div>
+        </section>
+    </div>
+
+    <div class="wins-losses">
+		<h4>Wins:
+			<span id= "numberWins"></span>
+			</br>
+			Losses: 
+			<span id= "numberLosses"></span>
+		</h4>
+    </div>
+
+    <div id="crystals" class="container">
+        <section class="gems">
+            <div class="row">
+                <div class="col-md-12"></div>
+                <button><img src="assets/images/blue crystal.gif" width="100" height="100" class=gemImage id="blue" alt="Blue Gem"></button>
+                <button><img src="assets/images/green crystal.gif" width="100" height="100" class=gemImage id="green" alt="Green Gem"></button>
+                <button><img src="assets/images/red crystal.gif" width="100" height="100" class=gemImage id="red" alt="Red Gem"></button>
+                <button><img src="assets/images/yellow crystal.gif" width="100" height="100" class=gemImage id="yellow" alt="Yellow Gem"></button>
+                </img>
+            </div>
+        </section>
+    </div>
+
+    <br>
+    <br>
+
+    <div id="totalscore" class="container">
+        <section class="score1">
+            <div class="row">
+                <div class="col-md-12"></div>
+                <h5 id="your-score">Your score: 
+                    <br>
+                    <h5 id='finalTotal'></h5></h5>
+            </div>
+        </section>
+    </div>
+    <br>
+    <br>
+
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+<script type="text/javascript" src="assets/javascript/crystalgame.js"></script>
+
+</html>
